@@ -5,3 +5,16 @@ body {
 h1 {
     color: #orangered;
 }
+.image-box {
+    width: 250px;
+    text-align: center;
+}
+.image-box img {
+    width: 100%;
+    height: auto;
+}
+.image-box p {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #333;
+}
