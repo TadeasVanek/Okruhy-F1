@@ -1,1 +1,13 @@
-
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autódromo Hermanos Rodríguez</title>
+</head>
+<body>
+    <h1>Autódromo Hermanos Rodríguez</h1>
+    <p>Jeden z nejznámějších okruhů v kalendáři Formule 1.</p>
+    <a href="../index.html">Zpět na seznam okruhů</a>
+</body>
+</html>
