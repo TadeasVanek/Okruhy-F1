@@ -1,35 +1,156 @@
+/* Základní nastavení */
+
+html {
+    margin: 0;
+}
 body {
     font-family: "Roboto", sans-serif;
     font-style: normal;
     text-align: center;
+    padding: 20px 40px;
 }
+
+/* Hlavička a logo */
+.hlavicka {
+    background-color: red;
+    padding: 1rem 0.5rem;
+    color: white;
+}
+
+.obal {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Typografie a nadpisy */
+
 h1 {
     color: black;
     font-weight: 800;
-    font-size: large;
+    font-size: 38px;
 }
+
+.text-uvod h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #111;
+}
+
+.text-uvod h2 {
+    font-size: 1.5rem;
+    color: #222;
+    margin-top: 2rem;
+}
+
+/* Textové bloky a články */
+
+.clanek {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.text-uvod {
+    text-align: center;
+    padding: 2rem 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.text-uvod p {
+    font-size: 1.2rem;
+    color: #444;
+    margin-bottom: 2rem;
+}
+
+.popisek {
+    text-align: left;
+}
+
+/* Obrázky a kontejnery */
+
 .image-box {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 250px;
+    max-width: 650px;
 }
+
 .image-box img {
     width: 100%;
     height: auto;
 }
+
 .image-box p {
     margin-top: 8px;
     font-size: 14px;
     color: #333;
     text-align: center;
 }
-.clanek {
-  max-width: 800px;        /* nastavíš maximální šířku (např. 800px) */
-  margin: 0 auto;          /* to zajistí zarovnání na střed */
-  padding: 1rem;           /* trochu vnitřního odsazení pro čitelnost */
+
+.uvodni-sekce img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    max-height: 200px;
 }
 
-.popisek {
-    color: orange;
+/* Seznam okruhů */
+
+.okruh-list {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: auto;
+}
+
+.okruh-list li {
+    margin: 0.5rem 0;
+}
+
+.okruh-list a {
+    display: block;
+    padding: 0.75rem 1rem;
+    background-color: #f8f8f8;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #222;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.okruh-list a:hover {
+    background-color: #e60000;
+    border-color: #e60000;
+    color: white;
+}
+
+/* Tlačítka */
+
+.tlacitko {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border: 2px solid red;
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: all 0.2s ease;
+}
+
+.tlacitko:hover {
+    background-color: red;
+    color: white;
 }
