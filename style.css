@@ -23,6 +23,8 @@ h1 {
     text-align: center;
 }
 .clanek {
-    margin: auto;
-    max-width: 70%;
+  max-width: 800px;        /* nastavíš maximální šířku (např. 800px) */
+  margin: 0 auto;          /* to zajistí zarovnání na střed */
+  padding: 1rem;           /* trochu vnitřního odsazení pro čitelnost */
 }
+
